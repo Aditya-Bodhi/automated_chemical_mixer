@@ -1,0 +1,3 @@
+Red → VCC (3.3V or 5V on ESP32)
+Black → GND
+Yellow (Signal) → GPIO 13 (or any other digital pin)
