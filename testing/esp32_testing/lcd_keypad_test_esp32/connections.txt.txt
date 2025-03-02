@@ -1,0 +1,11 @@
+Wiring (ESP32 to LCD & Keypad)
+LCD (I2C)
+
+VCC → 3.3V or 5V
+GND → GND
+SDA → GPIO 21
+SCL → GPIO 22
+Keypad Connections (Modify GPIOs as needed)
+
+Rows: GPIO 13, 12, 14, 27
+Columns: GPIO 26, 25, 33, 32
