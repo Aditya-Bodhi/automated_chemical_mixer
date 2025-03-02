@@ -1,0 +1,13 @@
+LCD Pin	ESP32 Pin
+VSS - GND
+VDD - 3.3V
+V0 - Potentiometer (for contrast)
+RS - GPIO 21
+RW - GND
+E - GPIO 22
+D4 - GPIO 18
+D5 - GPIO 19
+D6 - GPIO 23
+D7 - GPIO 5
+A (LED+) - 3.3V
+K (LED-) - GND
