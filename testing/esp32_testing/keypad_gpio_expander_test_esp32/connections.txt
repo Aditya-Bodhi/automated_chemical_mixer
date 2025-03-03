@@ -1,0 +1,18 @@
+Connections:
+PCF8574 to ESP32:
+
+VCC → 3.3V
+GND → GND
+SDA → GPIO21
+SCL → GPIO22
+ADDR (A0, A1, A2) → GND (Default I2C address: 0x20)
+Matrix Keypad to PCF8574:
+
+P4 → Row 1 (R1)
+P5 → Row 2 (R2)
+P6 → Row 3 (R3)
+P7 → Row 4 (R4)
+P0 → Column 1 (C1)
+P1 → Column 2 (C2)
+P2 → Column 3 (C3)
+P3 → Column 4 (C4)
