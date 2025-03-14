@@ -1,0 +1,31 @@
+Connections for 16x2 LCD (I2C)
+Your LCD module has an I2C backpack, so only 4 wires are needed:
+
+VCC → 5V (ESP32)
+GND → GND (ESP32)
+SDA → GPIO21 (ESP32)
+SCL → GPIO22 (ESP32)
+Connections for PCF8574 (Keypad IO Expander)
+The PCF8574 is used to interface the 4x4 keypad with the ESP32.
+
+PCF8574 to ESP32
+VCC → 3.3V or 5V (ESP32)
+GND → GND (ESP32)
+SDA → GPIO21 (ESP32) (Shared with LCD)
+SCL → GPIO22 (ESP32) (Shared with LCD)
+Keypad to PCF8574
+R1 → P4 (PCF8574)
+
+R2 → P5 (PCF8574)
+
+R3 → P6 (PCF8574)
+
+R4 → P7 (PCF8574)
+
+C1 → P0 (PCF8574)
+
+C2 → P1 (PCF8574)
+
+C3 → P2 (PCF8574)
+
+C4 → P3 (PCF8574)
