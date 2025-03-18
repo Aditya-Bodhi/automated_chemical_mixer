@@ -1,5 +1,5 @@
 Wiring (ESP32 to LCD & Keypad)
-LCD (I2C)
+LCD to I2C
 
 VCC → 3.3V or 5V
 GND → GND
