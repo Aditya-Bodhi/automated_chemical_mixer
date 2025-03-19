@@ -1,0 +1,12 @@
+L298N Pin	Connection
+12V (VMS)	12V Power Supply Positive
+GND	ESP32 GND & Power Supply GND
+5V OUT	(Optional) Can power ESP32 VIN (if stable)
+IN1	ESP32 GPIO 25 (Pump 1 ON/OFF)
+IN2	ESP32 GPIO 26 (Pump 1 OFF)
+IN3	ESP32 GPIO 27 (Pump 2 ON/OFF)
+IN4	ESP32 GPIO 14 (Pump 2 OFF)
+OUT1	Pump 1 Positive (Motor A)
+OUT2	Pump 1 Negative (Motor A)
+OUT3	Pump 2 Positive (Motor B)
+OUT4	Pump 2 Negative (Motor B)
