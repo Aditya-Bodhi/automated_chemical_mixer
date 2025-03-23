@@ -27,11 +27,11 @@ void loop() {
   Serial.println("Pump 1 ON");
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-  delay(5000);  // Run Pump 1 for 5 seconds
+  delay(20500);  // Run Pump 1 for 5 seconds
 
   Serial.println("Pump 1 OFF");
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, LOW);
 
-  while (1);  // Stop further execution
+  while (1);  // Stop further executionA
 }
