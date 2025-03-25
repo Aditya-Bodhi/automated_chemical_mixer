@@ -25,7 +25,7 @@ uint8_t rowPins[4] = {4, 5, 6, 7};  // PCF8574 GPIOs for rows
 uint8_t colPins[4] = {0, 1, 2, 3};  // PCF8574 GPIOs for columns
 
 int containerA = 0, containerB = 0;
-const int pumpTimes[] = {1500, 2500, 6950, 8600, 10400, 12365, 14420, 16480, 18300, 20500};
+const int pumpTimes[] = {2500, 5000, 6950, 8600, 10400, 12365, 14420, 16480, 18300, 20500};
 const int volumes[] = {50, 100, 150, 200, 250, 300, 350, 400, 450, 500};
 
 void setup() {
