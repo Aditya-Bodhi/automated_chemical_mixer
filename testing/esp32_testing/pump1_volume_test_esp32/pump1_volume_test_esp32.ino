@@ -27,7 +27,7 @@ void loop() {
   Serial.println("Pump 1 ON");
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-  delay(20500);  // Run Pump 1 for 5 seconds
+  delay(10400);  // Run Pump 1 for 5 seconds
 
   Serial.println("Pump 1 OFF");
   digitalWrite(IN1, LOW);
